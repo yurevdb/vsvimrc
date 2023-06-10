@@ -1,0 +1,22 @@
+let mapleader = " "
+
+" Standard stuff
+imap jj <Esc>
+nmap ; :
+
+" Nice keybinds
+nmap <Leader>w :w<CR>
+nmap <Leader>so :so ~/.vimrc<CR>
+
+" Visual Studio Keybinds
+nmap <Leader>d :vsc Debug.Start<CR>
+nmap <Leader>b :vsc Build.BuildSelection<CR>
+nmap <Leader>c :vsc Edit.ToggleLineComment<CR>
+vmap <Leader>c :vsc Edit.CommentSelection<CR>
+vmap <Leader>uc :vsc Edit.UncommentSelection<CR>
+nmap <Leader>r :vsc Refactor.Rename<CR>
+vmap <Leader>r :vsc Refactor.Rename<CR>
+nmap <Leader>f :vsc Edit.GoToAll<CR>
+nmap <Leader>np :vsc File.AddNewProject<CR>
+nmap <Leader>nf :vsc AddQuickFile<CR>
+nmap <Leader>xf :vsc File.Close<CR>
