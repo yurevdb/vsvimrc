@@ -25,3 +25,4 @@ nmap <Leader>m :vsc Edit.NextMethod<CR>
 nmap <Leader>M :vsc Edit.PreviousMethod<CR>
 nmap <Leader>e :vsc View.NextError<CR>
 nmap <Leader>E :vsc View.PreviousError<CR>
+nmap J :vsc Edit.QuickInfo<CR>
