@@ -6,23 +6,27 @@ nmap ; :
 
 " Nice keybinds
 nmap <Leader>w :w<CR>
-nmap <Leader>so :so ~/.vimrc<CR>
+nmap <Leader>so :so ~/vimfiles/_vsvimrc<CR>
 
 " Visual Studio Keybinds
-nmap <Leader>d :vsc Debug.Start<CR>
-nmap <Leader>b :vsc Build.BuildSelection<CR>
+nmap <Leader>r :vsc Debug.Start<CR>
+nmap <Leader>b :vsc Debug.ToggleBreakpoint<CR>
+
 nmap <Leader>c :vsc Edit.ToggleLineComment<CR>
 vmap <Leader>c :vsc Edit.CommentSelection<CR>
 vmap <Leader>uc :vsc Edit.UncommentSelection<CR>
 nmap R :vsc Refactor.Rename<CR>
 vmap R :vsc Refactor.Rename<CR>
+
 nmap <Leader>f :vsc Edit.GoToAll<CR>
-nmap <Leader>np :vsc File.AddNewProject<CR>
-nmap <Leader>nf :vsc AddQuickFile<CR>
-nmap <Leader>xf :vsc File.Close<CR>
 nmap gi :vsc Edit.GoToImplementation<CR>
 nmap <Leader>m :vsc Edit.NextMethod<CR>
 nmap <Leader>M :vsc Edit.PreviousMethod<CR>
 nmap <Leader>e :vsc View.NextError<CR>
 nmap <Leader>E :vsc View.PreviousError<CR>
+
+nmap <Leader>np :vsc File.AddNewProject<CR>
+nmap <Leader>nf :vsc AddQuickFile<CR>
+nmap <Leader>xf :vsc File.Close<CR>
+
 nmap J :vsc Edit.QuickInfo<CR>
