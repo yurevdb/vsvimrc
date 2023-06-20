@@ -3,6 +3,8 @@ let mapleader = " "
 " Standard stuff
 imap jj <Esc>
 nmap ; :
+nmap <C-u> <C-u>zz
+nmap <C-d> <C-d>zz
 
 " Nice keybinds
 nmap <Leader>w :w<CR>
